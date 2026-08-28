@@ -1,0 +1,17 @@
+com\cit\trading\model\UserPortfolio.class
+com\cit\trading\TradingApplication.class
+com\cit\trading\model\Stock.class
+com\cit\trading\model\BaseOrder.class
+com\cit\trading\service\MarketEngineService.class
+com\cit\trading\controller\TradingController.class
+com\cit\trading\util\FileManager.class
+com\cit\trading\service\MarketService.class
+com\cit\trading\controller\CustomExceptionHandler.class
+com\cit\trading\service\ExecutionService.class
+com\cit\trading\model\Transaction.class
+com\cit\trading\util\InsufficientFundsException.class
+com\cit\trading\config\WebSocketConfig.class
+com\cit\trading\util\ValidationUtil.class
+com\cit\trading\service\AiAgentService.class
+com\cit\trading\model\TradingBot.class
+com\cit\trading\repository\MarketRepository.class
