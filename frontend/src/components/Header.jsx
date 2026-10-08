@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cpu, Download, ShieldCheck, Zap } from 'lucide-react';
+import { Cpu, Download, Zap } from 'lucide-react';
 
 export default function Header({ onExportReport, isExporting }) {
   const [exportMessage, setExportMessage] = useState('');
@@ -21,31 +21,17 @@ export default function Header({ onExportReport, isExporting }) {
           <div>
             <div className="flex items-center space-x-2">
               <h1 className="text-xl md:text-2xl font-bold tracking-wider text-white">
-                QUANTUM<span className="text-[#00F0FF]">FINTECH</span>
+                <span className="text-[#00F0FF]">HFT</span>
               </h1>
-              <span className="px-2 py-0.5 text-xs font-mono bg-cyan-500/10 border border-cyan-500/30 text-[#00F0FF] rounded-full">
-                AI-ENHANCED
-              </span>
             </div>
             <p className="text-xs text-slate-400 font-mono mt-0.5">
-              CS5305 – Java Programming (Review II Module 1) | Chennai Institute of Technology
+              High-Frequency Trading Simulator
             </p>
           </div>
         </div>
 
-        {/* Team Metadata & Actions */}
+        {/* Platform Actions */}
         <div className="flex flex-wrap items-center gap-4">
-          {/* Team Badge */}
-          <div className="hidden xl:flex flex-col text-right font-mono text-xs text-slate-300 bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg">
-            <div className="flex items-center space-x-1 text-slate-400">
-              <ShieldCheck className="w-3.5 h-3.5 text-[#00F0FF]" />
-              <span>Dept of Computer Science & Engineering</span>
-            </div>
-            <div className="text-[#E2E8F0] font-semibold">
-              Jai Akash K P (2104251040323) | Prabanjan V (2104251040690)
-            </div>
-          </div>
-
           {/* Engine Status */}
           <div className="flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-3 py-1.5 rounded-lg text-xs font-mono">
             <Zap className="w-3.5 h-3.5 animate-bounce" />

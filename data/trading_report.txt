@@ -1,0 +1,36 @@
+========================================================================
+      REAL-TIME ALGORITHMIC TRADING & PORTFOLIO SIMULATOR REPORT       
+========================================================================
+Course: CS5305 - Java Programming (Review II Module 1)
+Institution: Chennai Institute of Technology, Department of CSE
+Team Members: Jai Akash K P (2104251040323) | Prabanjan V (2104251040690)
+Generated At: 2026-10-07 10:24:11
+========================================================================
+
+--- 1. PORTFOLIO SUMMARY ---
+Cash Balance:          $24032.55
+Total Holdings Value:  $77702.01
+Net Worth:             $101734.56
+
+--- 2. CURRENT HOLDINGS ---
+Ticker: GOOGL    | Quantity: 12    | Avg Buy Price: $180.72
+Ticker: NVDA     | Quantity: 1     | Avg Buy Price: $158.54
+Ticker: AAPL     | Quantity: 1     | Avg Buy Price: $183.23
+Ticker: BTC-USD  | Quantity: 1     | Avg Buy Price: $73461.64
+
+--- 3. AI MULTI-AGENT INSIGHTS ---
+Agent Alpha (Sentiment Score): 100% [BULLISH]
+Agent Alpha Summary:           Agent Alpha detects strong upside momentum (+10.07% avg). High buy-volume probability.
+Agent Beta Risk Status:        HIGH_RISK_PLASMA_MAGENTA
+Agent Beta Risk Warning:       CRITICAL WARNING: BTC-USD accounts for 73.9% of your net worth! Over-concentrated portfolio.
+
+--- 4. AUDIT LOG (TRANSACTION HISTORY) ---
+ID             | Timestamp           | Type     | Ticker | Qty   | Price     | Total     
+------------------------------------------------------------------------
+TX-9cd8912a    | 2026-10-07 10:13:32 | BUY      | AAPL   | 1     | $183.23   | $183.23   
+TX-cd0ee3ac    | 2026-10-07 10:15:22 | BUY      | GOOGL  | 5     | $198.78   | $993.90   
+TX-165cd501    | 2026-10-07 10:15:52 | SELL     | GOOGL  | 3     | $200.32   | $600.96   
+BOT-TX-0e40114e | 2026-10-07 10:17:26 | BOT_BUY  | GOOGL  | 10    | $177.11   | $1771.10  
+TX-d058f994    | 2026-10-07 10:21:07 | BUY      | BTC-USD | 1     | $73461.64 | $73461.64 
+TX-a025d332    | 2026-10-07 10:21:21 | BUY      | NVDA   | 1     | $158.54   | $158.54   
+========================================================================

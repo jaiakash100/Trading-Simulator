@@ -16,17 +16,16 @@ export default function DashboardOverview({ stocks = [], portfolio = {}, insight
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-[#FF1E56]/10 border border-[#FF1E56]/30 text-[#FF1E56] font-mono text-xs font-bold">
             <Zap className="w-3.5 h-3.5 animate-pulse" />
-            <span>AEGIS AUTONOMOUS QUANT ENGINE V2.4</span>
+            <span>High Frequency Trading</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-black font-mono tracking-tight text-white leading-tight">
-            Autonomous AI Algorithmic <br />
+            Trade Smarter with <br />
             <span className="bg-gradient-to-r from-[#00F0FF] via-cyan-300 to-[#00FF87] bg-clip-text text-transparent">
-              Asset Trading Platform
+              Real-Time Market Intelligence
             </span>
           </h1>
           <p className="text-slate-300 font-mono text-sm leading-relaxed">
-            Real-time algorithmic portfolio simulator powered by Java multithreading, synchronized memory state, 
-            and AI agents (Alpha, Beta, Gamma) developed for CS5305 review at Chennai Institute of Technology.
+            Monitor live market movements, manage risk, and test algorithmic trading strategies in a professional stock market simulation.
           </p>
 
           {/* Action Hero CTAs */}
