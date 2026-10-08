@@ -26,9 +26,6 @@ export default function Navbar({ activeTab, setActiveTab, onExportReport, isExpo
                 PRO EDITION
               </span>
             </div>
-            <p className="text-[11px] font-mono text-slate-400">
-              CIT CS5305 | Dept of CSE | Review II Module 1
-            </p>
           </div>
         </div>
 
